@@ -263,8 +263,6 @@ def main():
         print(f"\nSelected Group: {group_name}")
 
 
-
-        #   Doesn't work with topics
         topics = list_topics(group_id, access_hash)
         if not topics:
             print("This group has no topics. Fetching all group messages.")
